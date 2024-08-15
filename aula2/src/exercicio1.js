@@ -28,4 +28,42 @@ if (numero1 % numero == 0) {
   prompt(numero, "multiplo");
 } else {
   prompt(numero, "não é multiplo");
-};
+}
+
+numero1 = prompt("Entre com um Numero");
+numero1 = parseInt(numero1);
+numero2 = prompt("Entre com outro Numero");
+numero2 = parseInt(numero2);
+if (numero1 > numero2) {
+  prompt(numero1);
+} else {
+  prompt(numero2);
+}
+
+numero = prompt("Entre com sua idade");
+numero = parseInt(numero);
+if (numero < 18) {
+  prompt("menor de idade");
+} else {
+  prompt("maior de idade");
+}
+
+numero1 = prompt("Entre com um Numero");
+numero1 = parseInt(numero1);
+numero2 = prompt("Entre com outro Numero");
+numero2 = parseInt(numero2);
+numero3 = prompt("entre com mais um numero");
+numero3 = parseInt(numero3);
+if (numero1 > numero2) {
+  (numero1);
+} else {(
+  numero2);
+}
+if (numero3 > numero2) {
+  (numero3)
+} else {
+  (numero2)
+}
+
+
+temperatura
