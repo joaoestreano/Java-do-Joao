@@ -4,7 +4,7 @@ Treino1:
 
   Exercicio1: Mostrar o resto da divição de dois numeros inceridos pelo usuario. Utilizando: parseInt(converte o texto em numero) e numero1 % numero2(% mostra o resto da divição dos numeros).
   
-  Exercicio2: Mostra se o numero inserido pelo usuario é Impar ou par. Utilizando: parseInt(converte o texto em numero), if(se...) e else(senão...)
+  Exercicio2: Mostra se o numero inserido pelo usuario é Impar ou par. Utilizando: parseInt(converte o texto em numero), if(se...) e else(caso contrario...)
   
   Exercicio3: Mostra de os 2 numeros inseridos pelo usuario são multiplos.
   
