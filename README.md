@@ -6,7 +6,7 @@ Treino1:
   
   Exercicio2: Mostra se o numero inserido pelo usuario é Impar ou par. Utilizando: parseInt(converte o texto em numero), if(se...) e else(caso contrario...)
   
-  Exercicio3: Mostra de os 2 numeros inseridos pelo usuario são multiplos.
+  Exercicio3: Mostra de os 2 numeros inseridos pelo usuario são multiplos. 
   
   Exercicio4: Mostra qual dos 2 numeros inseridos pelo usuario é maior.
   
