@@ -1,4 +1,4 @@
-Este é meu Repositoria de meus estudos de JavaScript 
+Este é meu Repositoria de meus estudos de JavaScript, com a descrição dos exercicios realizados.
 
 Treino1:
 
