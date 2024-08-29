@@ -129,3 +129,61 @@ while (contador < 5) {// Loop while para solicitar 5 números ao usuário
     contador++;// Incrementa o contador
 }
 console.log("O maior número dos 5 números inseridos é: " + maior);// Imprime o maior número na tela
+
+//exercicio 8 Função para verificar a senha
+
+function verificarSenha() {
+    const senhaCorreta = "abc";
+    let senhaUsuario;
+    // Loop para pedir a senha até que a correta seja fornecida
+    while (true) {
+        senhaUsuario = prompt("Digite a senha:");// Pede para o usuário entrar com a senha
+        if (senhaUsuario === senhaCorreta) {// Verifica se a senha fornecida é a correta
+            alert("Senha correta! Acesso concedido.");
+            break;  // Sai do loop se a senha estiver correta
+        } else {
+            alert("Senha incorreta. Tente novamente.");
+        }
+    }
+}
+verificarSenha();// Chama a função para iniciar o processo
+
+//exercicio 9 Função para verificar a senha com limite de tentativas
+
+function verificarSenha() {
+    const senhaCorreta = "abc";
+    let senhaUsuario;
+    let tentativas = 0; // Contador de tentativas
+    const maxTentativas = 3; // Número máximo de tentativas
+    while (tentativas < maxTentativas) {// Loop para pedir a senha até que a correta seja fornecida ou o número máximo de tentativas seja alcançado
+        // Pede para o usuário entrar com a senha
+        senhaUsuario = prompt("Digite a senha:");
+        if (senhaUsuario === senhaCorreta) {// Verifica se a senha fornecida é a correta
+            alert("Senha correta! Acesso concedido.");
+            return;  // Sai da função se a senha estiver correta
+        } else {
+            tentativas++; // Incrementa o contador de tentativas
+            alert("Senha incorreta. Tente novamente. Tentativas restantes: " + (maxTentativas - tentativas));
+        }
+    }
+    alert("Número máximo de tentativas atingido. Acesso negado.");// Mensagem após o número máximo de tentativas
+}
+verificarSenha();// Chama a função para iniciar o processo
+
+//exercicio 10 
+
+let soma = 0;// Inicializa a variável de soma
+function adicionarNumeros() {// Função para solicitar números e acumular a soma
+    while (soma < 20) {// Enquanto a soma for menor que 20
+        let input = prompt("Digite um número:");// Solicita ao usuário para inserir um número
+        let numero = parseFloat(input);// Converte a entrada para um número decimal
+        if (isNaN(numero)) {// Verifica se a entrada é um número válido
+            alert("Por favor, digite um número válido.");
+        } else {           
+            soma += numero;// Adiciona o número à soma
+            alert(`Soma atual: ${soma}`);// Mostra a soma atual
+        }
+    }
+    alert(`A soma dos números inseridos é ${soma}. O valor 20 foi alcançado ou ultrapassado.`);// Quando a soma atingir ou ultrapassar 20
+}
+adicionarNumeros();// Chama a função
