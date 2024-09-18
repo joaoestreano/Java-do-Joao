@@ -12,7 +12,9 @@
     "seis": "node ./src/seis",
     "sete": "node ./src/sete",
     "oito": "node ./src/oito",
-    "nove": "node ./src/nove"
+    "nove": "node ./src/nove",
+    "dez": "node ./src/dez",
+    "onze": "node ./src/onze"
   },
   "keywords": [],
   "author": "",
